@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Display README') {
             steps {
-                sh 'Hello John from JTE Repo!'
+                echo 'Hello John from JTE Repo!'
                 sh 'cat README.md'
             }
         }
