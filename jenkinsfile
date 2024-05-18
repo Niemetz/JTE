@@ -9,9 +9,7 @@ pipeline {
         }
         stage('Display README') {
             steps {
-                script {
-                    def readmeContent = readFile('README.md')
-                    echo "README.md Content:\n${readmeContent}"
+               sh 'cat README.md'
                 }
             }
         }
