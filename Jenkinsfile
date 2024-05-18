@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/username/repository.git'
+                git 'git@github.com:Niemetz/JTE.git'
             }
         }
         stage('Display README') {
