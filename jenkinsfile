@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Display README') {
             steps {
-               sh 'cat README.md'
+              echo "Hi there From Git"
                 }
             }
         }
